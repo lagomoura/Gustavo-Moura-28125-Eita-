@@ -1,0 +1,28 @@
+.menu-footer {
+  ul {
+    list-style: none;
+      a {
+        color: $color-black;
+        font-family: $fuente-generica;
+        text-decoration: none;
+        font-size: .8rem;
+        font-weight: bold;
+        transition: color 0.5s;
+      &:hover {
+        color: $color-hover-menu;
+      }
+    }
+  }
+  }
+  
+  
+  .redes-logo {
+      i {
+        font-size: 2rem;
+        color: $color-black;
+        transition: color 0.5s;
+      &:hover {
+        color: $color-hover-menu;
+      }
+      }
+  }

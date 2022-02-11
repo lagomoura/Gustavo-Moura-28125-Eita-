@@ -1,0 +1,24 @@
+#beneficios {
+    background-image: url(/img/logo-fondo2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+        .beneficio-item {
+            overflow-y:hidden;
+            max-width: 30%;
+            text-align: center;
+            min-height: max-content;
+            min-height: auto;
+            p {
+                font-family: $fuente-text-sm;
+                text-align: center;
+                }
+                .beneficio-item-titulo {
+                    color: $color-black;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    font-family: $fuente-text-sm;
+                }
+        }
+}
+

@@ -1,0 +1,30 @@
+.eita-titulo {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    color: #ffbd52;
+}
+
+.eita-subtitulo {
+    font-size: 1rem;
+}
+
+@for $i from 1 through 9 {
+    .item-#{$i} {
+        background-color: rgba($color: #ffbd52, $alpha: 0.1 * $i)
+    }
+}
+
+.calendario-2021 {
+    height: 100vh;
+}
+
+.accordion-collapse {
+    a {
+        transition: all 0.7s;
+    }
+    a:hover {
+        background-color: $color-black;
+        color: $color-primario;
+    }
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/f5161e1654.js" crossorigin="anonymous"></script>
+        <!-- NORMALIZE -->
+        <link rel="stylesheet" href="./css/normalize.css">
+        <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Smartsupp Live Chat script -->
+<!-- Smartsupp Live Chat script -->
+        <script type="text/javascript">
+            var _smartsupp = _smartsupp || {};
+            _smartsupp.key = '9417d4137c406311f7bebef286145d341e8f2506';
+            window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        }   )(document);
+    </script>
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- SEO -->
+        <meta name="keywords" content="Cerveza, Club, Membresia, Cerveza Artesanal, Craft, Birra">
+        <meta name="description" content="Eita! Club Exlusivo de Cerveza es un club de Cervezas Artesanales, que tiene como objetivo difundir la cultura de la cerveza artesanal en Argentina">
+        <!--ANIMACIONES -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <!-- CSS -->
+        <link rel="stylesheet" href="./estilos/main.css">
+        <title>Eita! Club Exclusivo de Cerveza</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light p-0 mx-0 bg-warning" id="menu">
+            <div class="container-fluid bg-warning p-1 m-0 d-flex mx-lg-0">
+                <a class="navbar-brand mx-1 my-0" href="#">
+                    <span class="fs-1 titulo-logo md-4">Eita!</span>
+                    <span class="fw-light subtitulo-logo"> Club Exclusivo de Cerveza</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container-fluid bg-warning mx-0 d-flex flex-row-reverse">
+                <div class="col-lg-6 collapse navbar-collapse navbar-menu bg-warning p-3 m-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ml-auto">
+                        <li class="nav-item align-bottom align-self-start"> 
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#elClub">El Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#unite">Unite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/calendarioEstilos.html">Calendario de Estilos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer"> Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tienda.html"> Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/miCuenta.html"> Mi Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+                        <!-- CARROUSEL -->
+        <div id="carousel-portada" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="row">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/carousel-img-2.jpg" class="d-block w-100" alt="beer">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo1-carousel text-uppercase fw-bold">Mes a mes, una experiencia única</h5>
+                                <p class="subtitulo1-carousel">Aprienda tomando. Estas listos para entrar en el mundo de la cerveza?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carousel-img-3.jpg" class="d-block w-100" alt="beer">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo2-carousel text-uppercase fw-bold">Elegi la cantidad que queres recibir</h5>
+                                <p class="titulo2-carousel">Entregaremos todos los meses, en el confort de su casa.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carousel_5.jpg" class="d-block w-100" alt="beer">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo1-carousel text-uppercase fw-bold">Todos los meses, un nuevo motivo para brindar</h5>
+                                <p class="titulo1-carousel">Un estilo diferente TODOS LOS MESES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+                    <!-- FIN CARROUSEL -->
+    </main>
+                    <!-- EL CLUB -->
+    <section class="container-fluid" id="elClub">
+        <div class="row">
+            <div class="titulo titulo-club text-center text-warning fw-bold mt-3 p-0 m-0">
+                <span>El club</span>
+            </div>
+            <div class="linea-titulo d-flex justify-content-center align-content-center py-0 my-0"></div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 p-3 pb-0 pb-lg-2 d-flex-block text-club">
+                    <p> <em>Eita!</em> nace en el año 2018, pero es en el 2015 cuando este viaje empieza en nuestras vidas. Dublin, Irlanda, es el lugar donde todo empezó, una visita a la fabrica de cerveza Guinnes encendió la chispa de la curiosidad por el mundo cervecero.</p>
+                    <p>Somos curiosos, queremos aprender y conocer cosas nuevas todo el tiempo, es nuestra motivacion, nuestro motor, mejorar y crecer. Y creemos fervientemente que el saber y el conocimiento se comparten, y mucho más si es sobre cerveza!! Es por esto que en Abril de 2021, y con algunos años de experiencia, creamos Eita! “Club Exclusivo de Cerveza” ¿Qué mejor forma de aprender de cerveza que tomando cerveza? </p>
+                    <p>Tal como sugiere el nombre del Club, las produccion es realmente exclusiva, son cocciones de bajo volumen y con recetas que no se repiten, tratando de seguir siempre el objetivo de proporcionar la mayor gama de estilos cerveceros posible.</p>
+                    <p>No hay nada mejor que saber con certeza que es lo que estamos consumiendo, por eso, cada entrega llega acompañada de material gráfico con informacion del estilo que se esta tomando, la materia prima utilizada en esa coccion, guías de maridajes para ese estilo en particular, curiosidades cerveceras y mucho mas.</p>
+                    <p>Al ser miembro estas participando de un grupo exclusivo donde hacemos catas guiadas, te mostramos backstages de la producción, realizamos sorteos, regalos y una gran variedad de cosas que surgen dia a dia, muchas veces propuestas por los propios miembros.</p>
+                    <p>Que estas esperando? Vení a descubrír un mundo paralelo, donde la interacción del agua, las maltas, lupulos, levaduras y quizás unas cositas más, te hará viajar sin mover los pies del piso.</p>
+                </div>
+                <div class="col-12 p-5 col-lg-6 p-lg-5 pt-2 d-flex align-content-center">
+                    <img src="./img/elClub.jpg" class="img-fluid img-club" alt="club photo">
+                </div>
+                        </div>
+            </div>
+    </section>
+                    <!-- FIN DEL CLUB -->
+                    <!-- UNITE SECTION -->
+    <section id="unite" class="container-fluid">
+        <div class="row">
+            <div class="titulo-unite text-warning text-center py-3">
+                <span class="text-uppercase">Hacete Miembro</span>
+                <p class="text-light ">3 simples pasos</p>
+                <div class="linea-titulo-unite d-flex justify-content-center align-content-center py-0 my-0"></div>
+            </div>
+        </div>
+        <div class="row unite-container d-flex flex-row justify-content-center">
+            <div class="col-sm-4 col-lg-4 text-center p-2">
+                <i class="fab fa-wpforms step1 text-warning"></i>
+                <p class="text-light">Completa el formulario con tus datos personales</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 text-center p-2">
+                <i class="fas fa-beer step2 text-warning"></i>
+                <p class="text-light">Elegi que cantidad de birra queres recibir</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 text-center p-2">
+                <i class="fas fa-gift step3 text-warning"></i>
+                <p class="text-light">Recibí todos los meses un estilos diferente.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12 d-flex justify-content-center py-auto mb-2">
+                <button class="btn bg-warning btn-unite text-uppercase m-3">Unirme</button>
+            </div>
+        </div>
+    </section>
+                    <!-- FIN UNITE SECTION -->
+                    <!-- SECTION EXPERIENCIA -->
+    <section id="experiencia" class="container-fluid">
+        <div class="row experiencia-container d-flex justify-content-center flex-column ml-1">
+            <p class="titulo-experiencia">La mejor experiencia <em>birrística</em></p> 
+            <p class="subtitulo-experiencia">En el confort de tu casa</p>
+        </div>
+    </section>
+                    <!-- FIN SECTION EXPERIENCIA -->
+                    <!-- SECTION BENEFICIOS -->
+    <section id="beneficios" class="container-fluid p-0 py-3 my-3">
+        <div class="row d-flex justify-content-center align-items-start">
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio1.png" class="beneficio1-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Cervezas Exclusivas y Producciones Acotadas</p>
+                <p>Cada estilo cuenta con una produccion de bajo volumen, poniendo la atención en el proceso y la calidad del producto final.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio2.png" class="beneficio-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Ingredientes Seleccionados</p>
+                <p>Cada receta respeta sus ingredientes originales. Una mezcla perfecta entre el perfeccionismo de lo tradicional con la dosis justa de inovación.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio4.png" class="beneficio-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Material Gráfico</p>
+                <p>Todos las entregas van acompañandas de material gráfico impreso, con notas del cervecero, sugerencias de maridajes, historia de la cerveza, guía de estilos, curiosidades y mucho más.</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center d-flex">
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio3.png" class="beneficio-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Llegamos a Todo el País</p>
+                <p>Del norte al sur, llegamos a donde quieras que lleguemos. Recibí la mejor experiencia artesanal, en el confort de tu casa.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio5.png" class="beneficio-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Una Experiencia Diferente</p>
+                <p>Cada mes, una entrega diferente, un estilo diferente, una experiencia diferente.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 beneficio-item">
+                <img src="./img/beneficio6.png" class="beneficio-img" alt="">
+                <p class="beneficio-item-titulo fw-bold">Formá Parte de un Grupo Exclusivo</p>
+                <p>Catas guiadas, backstages de la producción, sorteos, regalos y mucho más.</p>
+            </div>
+        </div>
+    </section>
+                    <!-- FIN SECTION BENEFICIOS -->
+                    <!-- SECTION TIENDA -->
+    <section id="tienda" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-sm-12 col-lg-12 d-flex justify-content-center py-auto btn-tienda">
+                <button class="btn btn-outline-warning text-uppercase btn-tienda my-auto d-flex align-self-center">visite nuestra tienda</button>
+            </div>
+        </div>
+    </section>
+                    <!-- FIN SECTION TIENDA -->
+                    <!-- SECTION RECICLE -->
+    <section id="recicle">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-slanted">
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-sm-center text-lg-left my-5 py-5 reciclage-texto justify-content-center w-100">
+                        <p class="text-sm-center text-warning titulo-reciclage"> ♻️<span class="titulo-logo"><em class="text-warning logo-texto">Eita!</em></span> <span class="subtitulo-reciclage">Apoya la Sustentabilidad! </span> ♻️</p>
+                        <p class="text-uppercase text-sm-center fw-bold text-dark">Sumate a la <span class="text-dark"> idea </span> y <span class="text-dark"> reciclá </span>  👍🏽</p>
+                    <div class="row ">
+                        <a href="#" class="btn text-uppercase btn-reciclage">Puntos de reciclage</a>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    <!-- FIN SECTION RECICLE -->
+                    <!-- SEPARATOR -->
+
+                    <!-- SECTION VISITA FABRICA -->
+    <section id="fabrica">
+        <div class="container-fluid col-sm-12">
+            <div class="row d-flex justify-content-between p-lg-4 p-3">
+                <div class="card card1 col-sm-12 col-lg-4 align-items-center justify-content-around p-2" style="width: 30%;">
+                    <img src="./img/fabrica1.jpg" class="card-img-top" alt="brewery photo">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                        <p class="card-text text-center">Tour por nuestra fábrica. Todos los fines de semana, de puertas abiertas a nuestros miembros.</p>
+                        <a href="#" class="btn btn-warning text-uppercase">Más info</a>
+                    </div>
+                </div>
+                <div class="card card2 col-sm-12 col-lg-4 align-items-center justify-content-around p-2" style="width: 30%;">
+                    <img src="./img/fabrica2.jpg" class="card-img-top" alt="tapbeer photo">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <p class="card-text text-center">Conocé nuestro taproom. Cerveza tirada directo de los tanques de la fábrica.</p>
+                        <a href="#" class="btn btn-warning text-uppercase">Nuestro tapboard</a>
+                    </div>
+                </div>
+                <div class="card card3 col-sm-12 col-lg-4 align-items-center justify-content-around p-2" style="width: 30%;">
+                    <img src="./img/fabrica3.jpg" class="card-img-top" alt="beer photo">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <p class="card-text text-center">Acceso a nuestra bodega de guarda. Probá nuestros experimentos y descubrí algunas rarezas.</p>
+                        <a href="#" class="btn btn-warning text-uppercase">Hacé tu reserva</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonio">
+        <p class="titulo-testimonio text-center text-capitalize pt-lg-4 py-2 titulo-club text-light">Nuestros <span class="text-warning"> miembros </span></p>
+        <div class="row d-flex justify-content-center align-content-around py-5">
+            <div class="col-sm-12 col-md-4 col-lg-4 testimonio-item d-flex justify-content-center flex-column grilla-testimonio mx-auto flex-wrap my-auto">
+                <img src="./img/person1.jpg" class="img-person img-fluid img-thumbnail rounded mx-auto d-block mt-4" alt="">
+                <p class="nombre-person text-center p-2 text-dark my-auto">Natalia Cipolletti - Estilo favorito: Sour Ale 🍒</p>
+                <p class="text-testomonio text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ab cum aut! Praesentium eius magnam exercitationem distinctio laborum atque vel, libero molestiae dolore, labore similique dignissimos error minus maiores quisquam.</p>
+            </div>
+            <div class="col-sm-12 col-lg-4 testimonio-item d-flex justify-content-center flex-column grilla-testimonio mx-auto flex-wrap my-auto">
+                <img src="./img/person2.jpg" class="img-person img-fluid img-thumbnail rounded mx-auto d-block mt-4" alt="">
+                <p class="nombre-person text-center p-2 text-dark my-auto">Yadira Zaccur - Estilo favorito: Weissbier 🌾</p>
+                <p class="text-testomonio text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ab cum aut! Praesentium eius magnam exercitationem distinctio laborum atque vel, libero molestiae dolore, labore similique dignissimos error minus maiores quisquam.</p>
+            </div>
+            <div class="col-sm-12 col-lg-4 testimonio-item d-flex justify-content-center flex-column grilla-testimonio mx-auto flex-wrap my-auto">
+                <img src="./img/person3.jpg" class="img-person img-fluid img-thumbnail rounded mx-auto d-block mt-4" alt="">
+                <p class="nombre-person text-center p-2 text-dark my-auto">Fernando Troche - Estilo favorito: Italian Greape Ale 🍇</p>
+                <p class="text-testomonio text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ab cum aut! Praesentium eius magnam exercitationem distinctio laborum atque vel, libero molestiae dolore, labore similique dignissimos error minus maiores quisquam.</p>
+            </div>
+        </div>
+    </section>
+                    <!-- FIN SECTION VISITA FABRICA -->
+                    <!-- footer -->
+    <footer id="footer" class="bg-warning">
+            <div class="container-fluid col-12">
+                <div class="row">
+                    <div class="col-sm-auto col-md-6 col-lg-4 logo d-flex align-items-start justify-content-center my-auto">
+                        <img src="./img/logo-fondo4.svg" alt="">
+                    </div>
+                    <div class="col-sm-auto col-md-6 col-lg-4 d-flex menu-footer justify-content-center align-items-center mx-0 px-0 my-auto">
+                        <ul>
+                            <li><a href="#">INICIO</a></li>
+                            <li><a href="#elClub">EL CLUB</a></li>
+                            <li><a href="#unite">UNITE</a></li>
+                            <li><a href="./pages/calendarioEstilos.html">CALENDARIO DE COCCIÓN</a></li>
+                            <li><a href="#">CONTACTO</a></li>
+                            <li><a href="./pages/tienda.html">TIENDA</a></li>
+                            <li><a href="./pages/miCuenta.html">MI CUENTA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-auto col-md-6 col-lg-4 redes-logo d-flex justify-content-around">
+                        <div class="newsletter d-flex justify-content-start align-items mx-auto p-3">
+                            <form class="row g-0 justify-content-center text-center my-auto mx-auto d-flex flex-column">
+                                <div class="col-auto d-flex p-1">
+                                    <label for="staticEmail2" class="text-capitalize text-dark fw-bold">Suscribate nuestra newsletter</label>
+                                </div>
+                                <div class="col-auto">
+                                    <label for="inputPassword2" class="visually-hidden">Su mail</label>
+                                    <input type="email" class="form-control text-dark" id="inputPassword2" placeholder=" *Su mail">
+                                </div>
+                                <div class="col-auto p-2">
+                                    <button type="submit" class="btn bg-dark mb-3 text-uppercase btn-newsletter text-warning">confirmar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-flex col-sm-auto col-md-6 col-lg-4 justify-content-between my-auto mx-auto m-0 redes-logo my-auto py-auto">
+                            <a href="./page404.html" class="p-1"><i class="fab fa-instagram redes-logo"></i></a>
+                            <a href="" class="p-1"><i class="fab fa-youtube redes-logo"></i></a>
+                            <a href="" class="p-1"><i class="fab fa-reddit redes-logo"></i></a>
+                            <a href="" class="p-1"><i class="fab fa-twitter redes-logo"></i></a>
+                            <a href="" class="p-1"><i class="fab fa-tiktok redes-logo"></i></a>
+                    </div>
+                    </div>
+                </div>  
+    </footer>
+                    <!-- fin footer -->
+    <!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+

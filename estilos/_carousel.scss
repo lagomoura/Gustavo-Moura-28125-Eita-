@@ -1,0 +1,29 @@
+#carousel-portada {
+    height: 100%;
+    overflow: hidden;
+    .carousel-item {
+        max-height: calc(100vh - 78px);
+        overflow: hidden;
+            .titulo1-carousel {
+                color: $color-primario;
+                font-family: $fuente-generica;
+                overflow-y: hidden;
+            }   
+            .subtitulo1-carousel {
+                color: $color-hover-menu;
+        }
+            .titulo2-carousel {
+                color: $color-black;
+                font-family: $fuente-generica;
+                overflow-y: hidden;
+        }
+    }
+}
+
+
+
+
+
+
+
+

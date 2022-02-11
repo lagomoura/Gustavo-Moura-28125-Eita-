@@ -1,0 +1,31 @@
+
+.experiencia-container {
+    background-image: url(./img/experiencia.jpg);
+    background-size: cover;
+    min-height: 85vh;
+    background-position: center;
+    background-attachment: fixed;
+    font-style: italic;
+    object-fit: center;
+        .titulo-experiencia {
+            color: #fff;
+            font-size: 3rem;
+            font-family: $fuente-generica; 
+            padding-left: 30px;       
+        }
+        .subtitulo-experiencia {
+            color: #fff;
+            font-size: 2.5rem;
+            font-family: $fuente-generica; 
+            padding-left: 70px;   
+        }
+        .text-slant {
+            font-family: $fuente-generica;
+            color: $color-primario;
+            font-size: 3rem;
+            font-style: italic;
+            margin-left: 4em;
+        }
+}
+
+

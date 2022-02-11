@@ -1,0 +1,23 @@
+#carousel-tienda {
+    height: 100%;
+    .carousel-item {
+        max-height: 90vh;
+    }
+}
+
+.card-img-top {
+    transition: opacity 0.5s;
+&:hover {
+    opacity: 0.8;
+}    
+}
+
+.img-card {
+    height: 210px;
+}
+
+.card-body {
+    a:hover {
+        color: $color-primario;
+    }
+}
