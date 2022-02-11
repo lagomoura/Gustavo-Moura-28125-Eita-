@@ -400,6 +400,7 @@ body {
 
 #testimonio .grilla-testimonio {
   border: 2px solid #333;
+  height: min-content;
   width: 30%;
   transition: transform 0.7s, background-color 0.5s;
   background-color: #fbb034;

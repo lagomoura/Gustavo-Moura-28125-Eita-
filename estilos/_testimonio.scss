@@ -3,6 +3,7 @@
     color: $color-secundario;
     .grilla-testimonio {
         border: 2px solid $color-secundario;
+        height: min-content;
         width: 30%;
         transition: transform 0.7s, background-color 0.5s;
         background-color: #fbb034;
