@@ -3,15 +3,6 @@
     font-size: 3rem;
 }
 
-.linea-titulo {
-    &::after {
-        content: '';
-        border-top: 2px solid $color-primario;
-        width: 120px;
-        margin-left: 40px;
-    }
-}
-
 .text-club {
     p {
         font-family: $fuente-generica;
