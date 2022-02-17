@@ -37,3 +37,76 @@
     background-color: #000 !important;
     color: $color-primario;
 }
+
+
+/* From cssbuttons.io by @westitan */
+
+
+.btn-unite {
+    position: relative;
+    padding: 19px 36px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+}
+
+
+.btn-unite span {
+    position: relative;
+    color: #fff;
+    font-family: Arial;
+    letter-spacing: 4px;
+    z-index: 1;
+}
+
+.btn-unite .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #ffbd52;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.btn-unite .liquid::after,
+.btn-unite .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #fff;
+}
+
+.btn-unite .liquid::before {
+    border-radius: 45%;
+    background: rgba(256, 256, 256, 1);
+    animation: animate 5s linear infinite;
+}
+
+.btn-unite .liquid::after {
+    border-radius: 40%;
+    background: rgba(256, 256, 256, 1);;
+    animation: animate 10s linear infinite;
+}
+
+.btn-unite:hover .liquid {
+    top: -120px;
+}
+
+@keyframes animate {
+    0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+    }
+
+    100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
