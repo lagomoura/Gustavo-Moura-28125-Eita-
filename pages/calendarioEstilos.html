@@ -18,6 +18,8 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <!-- ANIMATE -->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- SEO -->
         <meta name="keywords" content="Cerveza, Club, Membresia, Cerveza Artesanal, Craft, Birra">
         <meta name="description" content="Calendario de estilos entregados en el ano de 2021, por Eita! Club Exclusivo de Cerveza">
@@ -36,7 +38,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
             <!-- CSS -->
         <link rel="stylesheet" href="../estilos/main.css">
-        <title>Eita! | Estilos Entregados</title>
+        <title>Eita! | Calendario de Estilos</title>
 </head>
 <body>
     <header>
@@ -82,8 +84,37 @@
     <main>
         <div class="calendario-2021 py-5">
             <section id="acordeon" class="container">
-                <h3 class="text-center pt-4 text-capitalize">Nuestros lanzamientos en 2021</h3>
-                <h5 class="text-center py-3">Estilos entregados en club</h5>
+                <h3 class="text-center py-5 text-capitalize fs-1 retrospectiva">Restrospectiva 2021</h3>
+                    <!-- CARD RESUMEN -->
+                <div class="card-resumen d-flex justify-content-around my-5 flex-wrap">
+                            <!-- INICIO CARD -->
+                    <div class="card card-calendario text-dark mb-3 animate__animated animate__jackInTheBox" style="max-width: 18rem;">
+                        <div class="card-header p-1 rounded-pill"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center fs-1">9</h5>
+                            <p class="card-text text-center fw-bold text-uppercase">Estilos presentados</p>
+                        </div>
+                    </div>
+                            <!-- FIN CARD -->
+                    <div class="card card-calendario text-dark mb-3 animate__animated animate__jackInTheBox  animate__delay-1s" style="max-width: 18rem;">
+                        <div class="card-header p-1 rounded-pill"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center fs-1">689</h5>
+                            <p class="card-text text-center fw-bold text-uppercase">Litros producidos</p>
+                        </div>
+                    </div>
+                    <div class="card card-calendario text-dark mb-3 animate__animated animate__jackInTheBox animate__delay-2s" style="max-width: 18rem;">
+                        <div class="card-header p-1 rounded-pill"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center fs-1">1378</h5>
+                            <p class="card-text text-center fw-bold text-uppercase">Botellas entregadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lanzamientos-2021 d-flex flex-column my-5">
+                    <p class="text-center pt-3 estilos-2021">Confira todos los lanzamientos de 2021</p>
+                    <p class="text-center pb-3 estilos-2021">Hojas de estilo y etiquetas.</p>
+                </div>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item item-1">
                         <h2 class="accordion-header" id="headingOne">
@@ -190,7 +221,7 @@
                     <div class="accordion-item item-8">
                         <h2 class="accordion-header" id="headingEight">
                         <button class="accordion-button collapsed item-8" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                        Noviemnbre 🍻
+                        Noviembre 🍻
                         </button>
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
@@ -219,11 +250,6 @@
             </section>
         </div>
     </main>
-    <section id="lanzamientos">
-        <div class="lanzamientos">
-
-        </div>
-    </section>
         <!-- BOOTSTRAP JS -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

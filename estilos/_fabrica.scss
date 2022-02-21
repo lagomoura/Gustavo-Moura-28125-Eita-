@@ -2,6 +2,7 @@
     min-height: min-content;
     border: 1px solid $color-primario;
     transition: all 0.5s;
+    width: 30%;
 &:hover {
     transform: scale(1.05);
     
@@ -19,7 +20,11 @@
 }
 
 
-
+@media screen and (max-width: 700px) {
+    .card {
+        width: 100%;
+    }
+}
 
 
 

@@ -31,3 +31,9 @@
     color: $color-black;
     } 
 }
+
+@media screen and (max-width: 320px) {
+    .titulo-reciclage {
+        font-size: 2.2rem !important;
+    }
+}

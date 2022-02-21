@@ -27,3 +27,8 @@
     filter: brightness(1.05);
 }
 
+@media screen and (max-width: 800px) {
+    .testimonio-item {
+        width: 100% !important;
+    }
+}
