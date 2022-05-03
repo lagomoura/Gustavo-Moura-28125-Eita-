@@ -1,0 +1,46 @@
+[
+    {
+        "id": 0,
+        "nombre": "Curso de Elaboracion",
+        "precio": 25000,
+        "texto": "Aprienda y entre de manera profunda en el mundo de la cerveza. Clases grabadas y en vivo.",
+        "img": "https://images.pexels.com/photos/1796698/pexels-photo-1796698.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+
+    {
+        "id": 1,
+        "nombre": "Kit de Degustacion",
+        "precio": 9000,
+        "texto": "6 de nuestros principales estilos de la casa. Reciba en el confort de su casa.",
+        "img": "../img/tienda-card2.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Packs Variados",
+        "precio": 12000,
+        "texto": "Nuestras recetas del 💖. Variedad de estilos pensados afuera de la caja. Aproveche la variedad.",
+        "img": "../img/tienda-card3.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Suscribite al Club",
+        "precio": 2800,
+        "texto": "Acceda a ejemplares pasados del Club Exclusivo. Acceso excluviso a miembros.",
+        "img": "../img/tienda-card4.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Weissbier",
+        "precio": 2800,
+        "texto": "Premium German Beer",
+        "img": "https://cdn.pixabay.com/photo/2018/05/31/16/51/beer-3444480__340.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Suscribite al Club",
+        "precio": 2800,
+        "texto": "Acceda a ejemplares pasados del Club Exclusivo. Acceso excluviso a miembros.",
+        "img": "https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237__340.jpg"
+    }
+]

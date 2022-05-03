@@ -21,3 +21,28 @@
         color: $color-primario;
     }
 }
+
+.text-esqueleto-carrito {
+    font-family: $fuente-menu;
+}
+
+.btn-comprar {
+    font-family: $fuente-text-sm;
+    font-weight:900;
+    transition: all 0.6s;
+    background-color: #ffbd52;
+}
+
+.btn-comprar:hover{
+    background-color: #000;
+    color: #ffbd52;
+}
+
+.btn-carrito-sumar {
+    background-color: #ffbd52;
+}
+
+.btn-carrito-restar {
+    background-color: #000;
+    color: #ffbd52;
+}
