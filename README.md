@@ -10,6 +10,9 @@ El proyecto se encuentra con el deploy realizado y su acceso puede ser realizado
 
 ## Las tecnologias utilizadas fueron:
 
+* HTML
+* CSS
+* JavaScript
 * [Boostrap] (https://getbootstrap.com/):  Librería que provee componentes de Bootstrap. En este proyecto, utilizada (entre otro lugares) en la Navbar y las card de producto. **Añadido a traves de CDN.**
 * [SweetAlert](https://sweetalert.js.org/guides/): Librerías utilizadas para añadir alertas personalizadas. En este proyecto, utilizadas para avisar al usuario cuando intenta realizar una compra inválida (pedido mayor al stock, menor que 1, etcétera). **Añadilas a tu proyecto con *npm install sweetalert*.**
 
